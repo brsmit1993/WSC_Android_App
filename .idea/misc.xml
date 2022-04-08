@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/monk1/.gradle/caches/transforms-3/1ce09e20ad50db32c9992f8c20c07c6f/transformed/material-1.5.0/res/drawable/material_ic_calendar_black_24dp.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/.gradle/caches/transforms-3/d542ed63d0eacf542d3f58f9e6442313/transformed/appcompat-1.4.1/res/drawable/abc_btn_check_material.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/.gradle/caches/transforms-3/d542ed63d0eacf542d3f58f9e6442313/transformed/appcompat-1.4.1/res/drawable/abc_btn_check_material_anim.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/.gradle/caches/transforms-3/d542ed63d0eacf542d3f58f9e6442313/transformed/appcompat-1.4.1/res/drawable/abc_btn_colored_material.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/.gradle/caches/transforms-3/d542ed63d0eacf542d3f58f9e6442313/transformed/appcompat-1.4.1/res/drawable/abc_btn_radio_material.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/campus-life/layout/my_campus_life.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/drawable/border.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/drawable/border_yellow.xml" value="0.2" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/drawable/clock.xml" value="0.5" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/drawables/main/drawable/calendar.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/drawables/main/drawable/dollarsign.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/drawables/main/drawable/location.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/drawables/my-campus-life/drawable/drawable.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layout/activity_index.xml" value="0.25" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layout/activity_map.xml" value="0.2" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/campus-news/layout/campusnews_cardview.xml" value="0.5" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/campus-news/layout/campusnews_recycleview.xml" value="0.2546875" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/campus-news/layout/my_ra_cardview.xml" value="0.2546875" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/events-and-calendars/layout/campus_events_recycleview.xml" value="0.20625" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/events-and-calendars/layout/event_cardview.xml" value="0.33" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/events-and-calendars/layout/event_filters.xml" value="0.5" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/events-and-calendars/layout/event_recycleview.xml" value="0.25" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/events-and-calendars/layout/events_and_calendars.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/help/layout/help_index.xml" value="0.25" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/help/layout/helpsheet_webview.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/help/layout/helpsheets_cardview.xml" value="0.5" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/help/layout/helpsheets_recycleview.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/help/layout/important.xml" value="0.2817028985507246" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/help/layout/important_numbers.xml" value="0.25" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/helpsheets/drawable/dollarsign.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/my-campus-life/layout/dorm_rule_cardview.xml" value="0.75" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/my-campus-life/layout/dorm_rule_recycleview.xml" value="0.13802083333333334" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/my-campus-life/layout/my_campus_life.xml" value="0.33" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/my-campus-life/layout/my_classes_cardview.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/my-campus-life/layout/my_classes_recycleview.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/my-campus-life/layout/my_dorm.xml" value="0.33" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/my-campus-life/layout/my_ra_cardview.xml" value="0.75" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/my-campus-life/layout/my_ra_recycleview.xml" value="0.30480072463768115" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/my-campus-life/layout/social_event_cardview.xml" value="0.5" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/my-campus-life/layout/social_event_recycleview.xml" value="0.33" />
+        <entry key="..\:/Users/monk1/AndroidStudioProjects/WSCApp/app/src/main/res/layouts/my-campus-life/layout/social_events.xml" value="0.33" />
+        <entry key="..\:/Users/monk1/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/ab_share_pack_material.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/ab_solid_shadow_material.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/ic_audio_alarm.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/ic_corp_statusbar_icon.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/ic_dialog_alert_material.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/ic_dnd_block_notifications.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/ic_doc_apk.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/ic_doc_certificate.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/ic_doc_codes.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/ic_doc_compressed.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/ic_doc_document.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/ic_doc_event.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/ic_doc_excel.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/ic_doc_folder.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/ic_doc_font.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/ic_doc_generic.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/ic_doc_image.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/ic_doc_powerpoint.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/ic_doc_presentation.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/ic_doc_text.xml" value="0.3828125" />
+        <entry key="..\:/Users/monk1/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/ic_signal_location.xml" value="0.3828125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

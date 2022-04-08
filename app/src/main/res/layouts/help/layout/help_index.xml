@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/helpsheetsBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/helpsheets"
+        android:onClick="helpsheets"
+        android:scaleType="centerCrop"
+        android:src="@drawable/border_dark"
+        app:layout_constraintBottom_toTopOf="@+id/phonebookBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mclTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help Sheets"
+        android:textColor="@color/wscLogoYellow"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/helpsheetsBtn"
+        app:layout_constraintEnd_toEndOf="@+id/helpsheetsBtn"
+        app:layout_constraintStart_toStartOf="@+id/helpsheetsBtn"
+        app:layout_constraintTop_toTopOf="@+id/helpsheetsBtn" />
+
+    <ImageButton
+        android:id="@+id/phonebookBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/phonebook"
+        android:onClick="importantNumbers"
+        android:scaleType="centerCrop"
+        android:src="@drawable/border_dark"
+        app:layout_constraintBottom_toTopOf="@+id/mapBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/helpsheetsBtn" />
+
+    <TextView
+        android:id="@+id/phonebookTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Campus Phonebook"
+        android:textColor="@color/wscLogoYellow"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/phonebookBtn"
+        app:layout_constraintEnd_toEndOf="@+id/phonebookBtn"
+        app:layout_constraintStart_toStartOf="@+id/phonebookBtn"
+        app:layout_constraintTop_toTopOf="@+id/phonebookBtn" />
+
+    <ImageButton
+        android:id="@+id/mapBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/map_btn"
+        android:onClick="campusMap"
+        android:scaleType="centerCrop"
+        android:src="@drawable/border_dark"
+        app:layout_constraintBottom_toTopOf="@+id/diningBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/phonebookBtn" />
+
+    <TextView
+        android:id="@+id/mapTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Campus Map"
+        android:textColor="@color/wscLogoYellow"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/mapBtn"
+        app:layout_constraintEnd_toEndOf="@+id/mapBtn"
+        app:layout_constraintStart_toStartOf="@+id/mapBtn"
+        app:layout_constraintTop_toTopOf="@+id/mapBtn" />
+
+    <ImageButton
+        android:id="@+id/diningBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/dining_btn"
+        android:onClick="campusDining"
+        android:scaleType="centerCrop"
+        android:src="@drawable/border_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mapBtn" />
+
+    <TextView
+        android:id="@+id/diningTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Campus Dining"
+        android:textColor="@color/wscLogoYellow"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/diningBtn"
+        app:layout_constraintEnd_toEndOf="@+id/diningBtn"
+        app:layout_constraintStart_toStartOf="@+id/diningBtn"
+        app:layout_constraintTop_toTopOf="@+id/diningBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

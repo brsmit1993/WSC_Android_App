@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/socialEventsBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/social_events"
+        android:onClick="socialEvents"
+        android:scaleType="centerCrop"
+        android:src="@drawable/border_dark"
+        app:layout_constraintBottom_toTopOf="@+id/myRasBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/socialEventsTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Social Events"
+        android:textColor="@color/wscLogoYellow"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/socialEventsBtn"
+        app:layout_constraintEnd_toEndOf="@+id/socialEventsBtn"
+        app:layout_constraintStart_toStartOf="@+id/socialEventsBtn"
+        app:layout_constraintTop_toTopOf="@+id/socialEventsBtn" />
+
+    <ImageButton
+        android:id="@+id/myRasBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/residence_life"
+        android:onClick="myRAs"
+        android:scaleType="centerCrop"
+        android:src="@drawable/border_dark"
+        app:layout_constraintBottom_toTopOf="@+id/dormRulesBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/socialEventsBtn" />
+
+    <TextView
+        android:id="@+id/myRasTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My RAs"
+        android:textColor="@color/wscLogoYellow"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/myRasBtn"
+        app:layout_constraintEnd_toEndOf="@+id/myRasBtn"
+        app:layout_constraintStart_toStartOf="@+id/myRasBtn"
+        app:layout_constraintTop_toTopOf="@+id/myRasBtn" />
+
+    <ImageButton
+        android:id="@+id/dormRulesBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/dorm_rules"
+        android:onClick="dormRules"
+        android:scaleType="centerCrop"
+        android:src="@drawable/border_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myRasBtn" />
+
+    <TextView
+        android:id="@+id/dormRulesTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dorm Rules"
+        android:textColor="@color/wscLogoYellow"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/dormRulesBtn"
+        app:layout_constraintEnd_toEndOf="@+id/dormRulesBtn"
+        app:layout_constraintStart_toStartOf="@+id/dormRulesBtn"
+        app:layout_constraintTop_toTopOf="@+id/dormRulesBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

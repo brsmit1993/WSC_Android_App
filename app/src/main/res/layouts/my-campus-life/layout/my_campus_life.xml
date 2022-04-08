@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/myDormBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/morey_hall"
+        android:onClick="myDorm"
+        android:scaleType="centerCrop"
+        android:src="@drawable/border_dark"
+        app:layout_constraintBottom_toTopOf="@+id/myClassesBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/myDormTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Dorm"
+        android:textColor="@color/wscLogoYellow"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/myDormBtn"
+        app:layout_constraintEnd_toEndOf="@+id/myDormBtn"
+        app:layout_constraintStart_toStartOf="@+id/myDormBtn"
+        app:layout_constraintTop_toTopOf="@+id/myDormBtn" />
+
+    <ImageButton
+        android:id="@+id/myClassesBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/my_classes"
+        android:onClick="myClasses"
+        android:scaleType="centerCrop"
+        android:src="@drawable/border_dark"
+        app:layout_constraintBottom_toTopOf="@+id/calendarsEventsBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myDormBtn" />
+
+    <TextView
+        android:id="@+id/myClassesTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Classes"
+        android:textColor="@color/wscLogoYellow"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/myClassesBtn"
+        app:layout_constraintEnd_toEndOf="@+id/myClassesBtn"
+        app:layout_constraintStart_toStartOf="@+id/myClassesBtn"
+        app:layout_constraintTop_toTopOf="@+id/myClassesBtn" />
+
+    <ImageButton
+        android:id="@+id/calendarsEventsBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/events_btn"
+        android:onClick="eventsAndCalendars"
+        android:scaleType="centerCrop"
+        android:src="@drawable/border_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myClassesBtn" />
+
+    <TextView
+        android:id="@+id/calendarsEventsTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Events And Calendars"
+        android:textColor="@color/wscLogoYellow"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/calendarsEventsBtn"
+        app:layout_constraintEnd_toEndOf="@+id/calendarsEventsBtn"
+        app:layout_constraintStart_toStartOf="@+id/calendarsEventsBtn"
+        app:layout_constraintTop_toTopOf="@+id/calendarsEventsBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

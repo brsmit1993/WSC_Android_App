@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.wsc.main">
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WSCApp"
+        >
+        <activity
+            android:name="com.wsc.activity.main.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.wsc.activity.index.IndexActivity" />
+        <activity android:name="com.wsc.activity.index.CampusMapActivity" />
+        <activity android:name="com.wsc.activity.mcl.MCLActivity" />
+        <activity android:name="com.wsc.activity.mcl.mydorm.MyDormActivity" />
+        <activity android:name="com.wsc.activity.mcl.mydorm.SocialEventsActivity" />
+        <activity android:name="com.wsc.activity.mcl.MyClassesActivity" />
+        <activity android:name="com.wsc.activity.mcl.mydorm.MyRAsActivity" />
+        <activity android:name="com.wsc.activity.mcl.mydorm.DormRulesActivity" />
+        <activity android:name="com.wsc.activity.campusnews.CampusNewsActivity" />
+        <activity android:name="com.wsc.activity.help.HelpSheetsActivity" />
+        <activity android:name="com.wsc.activity.help.HelpActivity" />
+        <activity android:name="com.wsc.activity.help.ImportantNumbersActivity" />
+        <activity android:name="com.wsc.activity.help.HelpSheetWebViewActivity" />
+        <activity android:name="com.wsc.activity.eventsandcalendars.EventsAndCalendarsIndexActivity" />
+        <activity android:name="com.wsc.activity.eventsandcalendars.CalendarWebViewActivity" />
+        <activity android:name="com.wsc.activity.eventsandcalendars.EventsActivity" />
+        <activity android:name="com.wsc.activity.eventsandcalendars.EventFiltersActivity" />
+    </application>
+
+</manifest>

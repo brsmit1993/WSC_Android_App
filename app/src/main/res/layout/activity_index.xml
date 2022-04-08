@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/mclBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/mcl_btn"
+        android:onClick="myCampusLife"
+        android:scaleType="centerCrop"
+        android:src="@drawable/border_dark"
+        app:layout_constraintBottom_toTopOf="@+id/newsBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mclTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Campus Life"
+        android:textColor="@color/wscLogoYellow"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/mclBtn"
+        app:layout_constraintEnd_toEndOf="@+id/mclBtn"
+        app:layout_constraintStart_toStartOf="@+id/mclBtn"
+        app:layout_constraintTop_toTopOf="@+id/mclBtn" />
+
+    <ImageButton
+        android:id="@+id/newsBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/news_btn"
+        android:onClick="campusNews"
+        android:scaleType="centerCrop"
+        android:src="@drawable/border_dark"
+        app:layout_constraintBottom_toTopOf="@+id/sportsBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mclBtn" />
+
+    <TextView
+        android:id="@+id/newsTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Campus News"
+        android:textColor="@color/wscLogoYellow"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/newsBtn"
+        app:layout_constraintEnd_toEndOf="@+id/newsBtn"
+        app:layout_constraintStart_toStartOf="@+id/newsBtn"
+        app:layout_constraintTop_toTopOf="@+id/newsBtn" />
+
+    <ImageButton
+        android:id="@+id/helpBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/resources"
+        android:onClick="helpAndFaq"
+        android:scaleType="centerCrop"
+        android:src="@drawable/border_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sportsBtn" />
+
+    <TextView
+        android:id="@+id/helpTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resources"
+        android:textColor="@color/wscLogoYellow"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/helpBtn"
+        app:layout_constraintEnd_toEndOf="@+id/helpBtn"
+        app:layout_constraintStart_toStartOf="@+id/helpBtn"
+        app:layout_constraintTop_toTopOf="@+id/helpBtn" />
+
+    <ImageButton
+        android:id="@+id/sportsBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/sports_btn"
+        android:onClick="campusMap"
+        android:scaleType="centerCrop"
+        android:src="@drawable/border_dark"
+        app:layout_constraintBottom_toTopOf="@+id/helpBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newsBtn" />
+
+    <TextView
+        android:id="@+id/mapTxt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WSC Sports"
+        android:textColor="#E3A40E"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/sportsBtn"
+        app:layout_constraintEnd_toEndOf="@+id/sportsBtn"
+        app:layout_constraintStart_toStartOf="@+id/sportsBtn"
+        app:layout_constraintTop_toTopOf="@+id/sportsBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

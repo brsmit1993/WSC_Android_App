@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="eventsActivity"
+        android:text="Events"
+        app:layout_constraintBottom_toTopOf="@+id/AcademicCalendarBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/AcademicCalendarBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="getCalendar"
+        android:text="Academic Calendar"
+        app:layout_constraintBottom_toTopOf="@+id/FinalExamBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+    <Button
+        android:id="@+id/FinalExamBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="getCalendar"
+        android:text="Final Exam Schedule"
+        app:layout_constraintBottom_toTopOf="@+id/RegistrationDatesBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AcademicCalendarBtn" />
+
+    <Button
+        android:id="@+id/RegistrationDatesBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="getCalendar"
+        android:text="Registration Dates"
+        app:layout_constraintBottom_toTopOf="@+id/HolidayScheduleBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FinalExamBtn" />
+
+    <Button
+        android:id="@+id/HolidayScheduleBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="getCalendar"
+        android:text="Holiday Schedule"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RegistrationDatesBtn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

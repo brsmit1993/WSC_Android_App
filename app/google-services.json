@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "997870742616",
+    "project_id": "wsc-practicum-app",
+    "storage_bucket": "wsc-practicum-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997870742616:android:d98a305647c403c56e6e2d",
+        "android_client_info": {
+          "package_name": "com.wsc.main"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997870742616-dth2cj60758t4gvgm3iufjuatcqa5h9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCwpbVzkE_50ULB8HUKfiKdmwtx4HL-iI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997870742616-dth2cj60758t4gvgm3iufjuatcqa5h9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

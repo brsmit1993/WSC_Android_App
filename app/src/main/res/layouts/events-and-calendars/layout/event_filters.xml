@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ToggleButton
+        android:id="@+id/ToursToggle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:backgroundTint="@color/toggleBtn"
+        android:backgroundTintMode="src_atop"
+        android:text="ToggleButton"
+        android:textOff="TOURS VISITS"
+        android:textOn="TOURS VISITS"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintEnd_toEndOf="@+id/SpecialInterestToggle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SpecialInterestToggle" />
+
+    <ToggleButton
+        android:id="@+id/SpeakersToggle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/toggleBtn"
+        android:backgroundTintMode="src_atop"
+        android:text="ToggleButton"
+        android:textOff="SPEAKERS PANELS"
+        android:textOn="SPEAKERS PANELS"
+        app:layout_constraintBottom_toTopOf="@+id/TheatreToggle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/SocialToggle"
+        app:layout_constraintTop_toBottomOf="@+id/ServiceToggle" />
+
+    <ToggleButton
+        android:id="@+id/TheatreToggle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/toggleBtn"
+        android:backgroundTintMode="src_atop"
+        android:text="ToggleButton"
+        android:textOff="THEATRE PERFORMANCES"
+        android:textOn="THEATRE PERFORMANCES"
+        app:layout_constraintBottom_toTopOf="@+id/ToursToggle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/SpecialInterestToggle"
+        app:layout_constraintTop_toBottomOf="@+id/SpeakersToggle" />
+
+    <ToggleButton
+        android:id="@+id/AcademicToggle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/toggleBtn"
+        android:backgroundTintMode="src_atop"
+        android:text="ToggleButton"
+        android:textOff="Academic"
+        android:textOn="Academic"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/ArtToggle"
+        app:layout_constraintEnd_toStartOf="@+id/AlumniToggle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/CareerToggle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/toggleBtn"
+        android:backgroundTintMode="src_atop"
+        android:text="ToggleButton"
+        android:textOff="CAREER JOBS"
+        android:textOn="CAREER JOBS"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/FitnessToggle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ArtToggle"
+        app:layout_constraintTop_toBottomOf="@+id/AlumniToggle" />
+
+    <ToggleButton
+        android:id="@+id/FitnessToggle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/toggleBtn"
+        android:backgroundTintMode="src_atop"
+        android:text="ToggleButton"
+        android:textOff="FITNESS RECREATION"
+        android:textOn="FITNESS RECREATION"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/HolidayToggle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ConferenceToggle"
+        app:layout_constraintTop_toBottomOf="@+id/CareerToggle" />
+
+    <ToggleButton
+        android:id="@+id/healthToggle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/toggleBtn"
+        android:backgroundTintMode="src_atop"
+        android:text="ToggleButton"
+        android:textOff="HEALTH WELLNESS"
+        android:textOn="HEALTH WELLNESS"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/LiteratureFilmToggle"
+        app:layout_constraintEnd_toStartOf="@+id/HolidayToggle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ConferenceToggle" />
+
+    <ToggleButton
+        android:id="@+id/LiteratureFilmToggle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/toggleBtn"
+        android:backgroundTintMode="src_atop"
+        android:text="ToggleButton"
+        android:textOff="LITERATURE FILM"
+        android:textOn="LITERATURE FILM"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/PlanetariumToggle"
+        app:layout_constraintEnd_toStartOf="@+id/MusicToggle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/healthToggle" />
+
+    <ToggleButton
+        android:id="@+id/PlanetariumToggle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/toggleBtn"
+        android:backgroundTintMode="src_atop"
+        android:text="ToggleButton"
+        android:textOff="PLANETARIUM SHOWS"
+        android:textOn="PLANETARIUM SHOWS"
+        app:layout_constraintBottom_toTopOf="@+id/SocialToggle"
+        app:layout_constraintEnd_toStartOf="@+id/ServiceToggle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LiteratureFilmToggle" />
+
+    <ToggleButton
+        android:id="@+id/SocialToggle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/toggleBtn"
+        android:backgroundTintMode="src_atop"
+
+        android:text="ToggleButton"
+        android:textOff="SOCIAL EVENTS"
+        android:textOn="SOCIAL EVENTS"
+        app:layout_constraintBottom_toTopOf="@+id/SpecialInterestToggle"
+        app:layout_constraintEnd_toStartOf="@+id/SpeakersToggle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PlanetariumToggle" />
+
+    <ToggleButton
+        android:id="@+id/SpecialInterestToggle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/toggleBtn"
+
+        android:backgroundTintMode="src_atop"
+        android:text="ToggleButton"
+        android:textOff="SPECIAL INTEREST"
+        android:textOn="SPECIAL INTEREST"
+        app:layout_constraintBottom_toTopOf="@+id/ToursToggle"
+        app:layout_constraintEnd_toStartOf="@+id/TheatreToggle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SocialToggle" />
+
+    <ToggleButton
+        android:id="@+id/ArtToggle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/toggleBtn"
+        android:backgroundTintMode="src_atop"
+        android:text="ToggleButton"
+        android:textOff="Art Exhibit"
+        android:textOn="Art Exhibit"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/ConferenceToggle"
+        app:layout_constraintEnd_toStartOf="@+id/CareerToggle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AcademicToggle" />
+
+    <ToggleButton
+        android:id="@+id/ConferenceToggle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/toggleBtn"
+        android:backgroundTintMode="src_atop"
+        android:text="ToggleButton"
+        android:textOff="CONFERENCE WORKSHOPS"
+        android:textOn="CONFERENCE WORKSHOPS"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/healthToggle"
+        app:layout_constraintEnd_toStartOf="@+id/FitnessToggle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ArtToggle" />
+
+    <ToggleButton
+        android:id="@+id/HolidayToggle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/toggleBtn"
+        android:backgroundTintMode="src_atop"
+        android:text="ToggleButton"
+        android:textOff="HOLIDAY SEASONAL"
+        android:textOn="HOLIDAY SEASONAL"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/MusicToggle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/healthToggle"
+        app:layout_constraintTop_toBottomOf="@+id/FitnessToggle" />
+
+    <ToggleButton
+        android:id="@+id/MusicToggle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/toggleBtn"
+        android:backgroundTintMode="src_atop"
+        android:text="ToggleButton"
+        android:textOff="MUSIC PERFORMANCES"
+        android:textOn="MUSIC PERFORMANCES"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/ServiceToggle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/LiteratureFilmToggle"
+        app:layout_constraintTop_toBottomOf="@+id/HolidayToggle" />
+
+    <ToggleButton
+        android:id="@+id/ServiceToggle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/toggleBtn"
+        android:backgroundTintMode="src_atop"
+        android:text="ToggleButton"
+        android:textOff="SERVICE VOLUNTEER"
+        android:textOn="SERVICE VOLUNTEER"
+        app:layout_constraintBottom_toTopOf="@+id/SpeakersToggle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/PlanetariumToggle"
+        app:layout_constraintTop_toBottomOf="@+id/MusicToggle" />
+
+    <ToggleButton
+        android:id="@+id/AlumniToggle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/toggleBtn"
+        android:backgroundTintMode="src_atop"
+        android:text="ToggleButton"
+        android:textOff="Alumni Foundation"
+        android:textOn="Alumni Foundation"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/CareerToggle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/AcademicToggle"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:onClick="saveChanges"
+        android:text="Save Changes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ToursToggle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
